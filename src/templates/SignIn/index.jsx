@@ -6,7 +6,7 @@ import { FcCurrencyExchange } from "react-icons/fc";
 import { RiMailLine, RiLockPasswordLine } from "react-icons/ri";
 
 
-function SignIn() {
+export function SignIn() {
 
   return (
     
@@ -51,5 +51,3 @@ function SignIn() {
       </Container>
   )
 }
-
-export default SignIn

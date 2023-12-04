@@ -8,14 +8,14 @@ export default createGlobalStyle`
    }
 
 body{
-    background-color: ${({theme}) => theme.COLORS.BACKGROUND_800};
-    color: ${({theme}) => theme.COLORS.WHITE_1};
+    background-color: ${({theme}) => theme.COLORS.BACKGROUND_1};
+    color: ${({theme}) => theme.COLORS.BLUE_4};
 
     -webkit-font-smoothing: antialiased;
 }
 
 body, input, button, textarea{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 16px;
     outline: none;
 
@@ -39,6 +39,7 @@ button:hover, a:hover{
 
 h1 {
     font-weight: 900;
+    
 }
 
 h2, h3{

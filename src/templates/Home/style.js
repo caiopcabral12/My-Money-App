@@ -101,7 +101,6 @@ export const Content = styled.div`
 export const Boxes = styled.button`
     width: 200px;
     height: 200px;
-    padding: 10px;
     background-color: ${({theme}) => theme.COLORS.WHITE_1};
     color: ${({theme}) => theme.COLORS.BLACK_300};
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);

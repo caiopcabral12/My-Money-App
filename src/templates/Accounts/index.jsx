@@ -3,7 +3,7 @@ import { Table } from "../../components/Table"
 import { Button } from "../../components/button"
 import { Container, Navigation, Content } from "./style"
 
-export function AccountsPayable() {
+export function Accounts() {
     return(
         <Container>
             <Header/>

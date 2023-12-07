@@ -1,4 +1,3 @@
-
 import { Header } from "../../components/Header";
 import { Container, Content, TableContent } from "./style";
 import { Table } from "../../components/Table";

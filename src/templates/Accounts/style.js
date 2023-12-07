@@ -6,7 +6,6 @@ export const Container = styled.div`
     "header"
     "Navigation"
     "Content";
-    padding: 20px;
 `
 
 export const Navigation = styled.div`

@@ -49,6 +49,7 @@ export function Table() {
                                     </button>
                                     </td>
                             </tr>
+                            
                             <tr>
                                 <td>01.01.2002</td>
                                 <td>HOES</td>

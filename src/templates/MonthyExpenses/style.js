@@ -10,7 +10,6 @@ export const Container = styled.div`
     grid-template-areas: 
     "header header"
     "content content";
-    padding: 20px;
 
 `
 
@@ -21,6 +20,8 @@ export const Content = styled.div `
 `
 
 export const TableContent = styled.div`
+
+    display: flex;
     max-height: 550px;
-    overflow-y: auto;
+    justify-content: space-between;
 `;

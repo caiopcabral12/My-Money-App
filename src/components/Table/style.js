@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.table `
   color: ${({theme}) => theme.COLORS.BLUE_4};
-  width: 1200px;
+  width: 100%;
   margin: auto;
   text-align: start;
   font-family: 'Ubuntu', sans-serif;
@@ -10,7 +10,7 @@ export const Container = styled.table `
     table, th, td{
         border-top: 1px solid;
         border-collapse: collapse;
-        border-color: ${({theme}) => theme.COLORS.WHITE_4};
+        border-color: ${({theme}) => theme.COLORS.WHITE_1};
     }
 
     th{

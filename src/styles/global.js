@@ -10,6 +10,7 @@ export default createGlobalStyle`
 body{
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_1};
     color: ${({theme}) => theme.COLORS.BLUE_4};
+    padding: 20px;
 
     -webkit-font-smoothing: antialiased;
 }

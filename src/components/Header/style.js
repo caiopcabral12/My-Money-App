@@ -18,6 +18,7 @@ export const Brand = styled.div`
    padding: 20px;
    width: 400px;
    background: ${({theme}) => theme.COLORS.BACKGROUND_800};
+   color: ${({theme}) => theme.COLORS.WHITE_1};
    font-family: 'Outfit', sans-serif;
    font-weight: 900;
    font-size: large;

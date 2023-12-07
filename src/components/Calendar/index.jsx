@@ -29,7 +29,7 @@ function getTodoList(date) {
 export function Calendary() {
    function renderCell(date) {
     const list = getTodoList(date);
-    const displayList = list.filter((item, index) => index < 2);
+    const displayList = list.filter((item, index) => index < 1);
 
     if (list.length) {
       const moreCount = list.length - displayList.length;
@@ -54,6 +54,7 @@ export function Calendary() {
       );
 
       return (
+        
         <ul className="calendar-todo-list">
           {displayList.map((item, index) => (
             <li key={index}>
@@ -70,8 +71,21 @@ export function Calendary() {
    
 
     return(
+      
         <Container>
-            <Calendar bordered renderCell={renderCell}/>
+          <style>
+        {`
+      .rs-calendar-panel:not(.rs-calendar-compact) .rs-calendar-table-row:not(.rs-calendar-table-header-row) .rs-calendar-table-cell-content {
+        height: 90px;
+      }
+      .rs-calendar-table-cell-content {
+        display: inline-block;
+        font-size: 13px;
+
+      `}
+      </style>
+            <Calendar bordered renderCell={renderCell} cellClassName={date => (date.getDay() % 1 ? 'rs-calendar-panel:not(.rs-calendar-compact) .rs-calendar-table-row:not(.rs-calendar-table-header-row) .rs-calendar-table-cell-content .rs-calendar-table-cell-content' : undefined)}/>
+            
         </Container>
         
     )

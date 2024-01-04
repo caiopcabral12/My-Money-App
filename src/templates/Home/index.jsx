@@ -7,12 +7,8 @@ import { GiReceiveMoney } from "react-icons/gi";
 import { RxCalendar } from "react-icons/rx";
 import { GiPayMoney } from "react-icons/gi";
 import { RiMoneyDollarCircleLine } from "react-icons/ri";
-import { ButtonText } from "../../components/ButtonText";
-import { Input } from '../../components/Input/index'
 
-
-
-function Home(title, ...rest) {
+export function Home(title, ...rest) {
     return (
 
         <Container>
@@ -89,5 +85,3 @@ function Home(title, ...rest) {
 
     )
 }
-
-export default Home

@@ -46,11 +46,7 @@ export function CreditCard() {
                              <span className="spanNumbers">R$ 300,00</span>
                         </div>
                     </div>
-                    
 
-                    
-                
-                
             </TableContent>
             <Table/>
             </Content>

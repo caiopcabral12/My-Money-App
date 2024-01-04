@@ -8,7 +8,7 @@ export default createGlobalStyle`
    }
 
 body{
-    background-color: ${({theme}) => theme.COLORS.BACKGROUND_1};
+    background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
     color: ${({theme}) => theme.COLORS.BLUE_4};
     padding: 20px;
 
